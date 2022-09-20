@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',  sans-serif;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+      
+}
+
+section {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 60% 40%;
+    padding: 1rem;
+}
+
+.product-image {
+    width: 100%;
+}
+
+.t-left {
+    text-align: left;
+    margin: 0 2.5rem;
+
+}
+
+.text-container {
+    max-width: 70%;
+}
+
+.t-right {
+    text-align: right;
+    margin: 0 1.5rem;
+}
+
+.text-header {
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline;
+    margin-bottom: 16px;
+    font-size: 2rem;
+}
+
+.text-container h1, .text-container p {
+    text-align: inherit;
+    margin-top: 16px;
+    line-height: 20px;
+    width: 100%;
+}
+
+.text-desc {
+    opacity: 0.65;
+}
+
+@media screen and (max-width: 1220px) {
+    .text-header {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .text-header {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 920px){
+
+    section {
+        grid-template-columns: 50% 50%;
+    }
+
+    .text-container{
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+
+    section {
+        grid-template-columns: 100%;
+    }
+
+    .t-left, .t-right {
+        text-align: center;
+        margin: 2rem 0rem;
+        line-height: 24px;
+    }
+
+    .text-container {
+        width: 100%;
+        margin: 2rem auto;
+    }
+
+    .opi-img{
+        grid-row: 1;
+    }
+
+    .opi-texts {
+        grid-row: 2;
+    }
+
+    .vinoble-img {
+        grid-row: 3;
+    }
+
+    .vinoble-texts {
+        grid-row: 4;
+    }
+
+    .delisea-img {
+        grid-row: 5;
+    }
+
+    .delisea-texts {
+        grid-row: 6;
+    }
+
+    .product-image {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 460px){
+    
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+}
+
+
