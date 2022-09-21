@@ -70,7 +70,7 @@ section {
 }
 
 .cta-btn:hover {
-    box-shadow: 5px 5px 1px #dfdfdf;
+/*     box-shadow: 5px 5px 1px #dfdfdf; */
     background: white;
     color: black;
     border: .5px solid #dfdfdf;
