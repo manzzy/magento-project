@@ -16,7 +16,7 @@ body {
 section {
     display: grid;
     align-items: center;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 50% 50%;
     padding: 1rem;
 }
 
