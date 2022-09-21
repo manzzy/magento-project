@@ -55,6 +55,27 @@ section {
     width: 100%;
 }
 
+.cta-btn {
+    padding: .5rem 1.4rem;
+    border: none;
+    margin: 1rem 0;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transform: 1s all ease-in-out;
+    
+}
+
+.cta-btn:hover {
+    box-shadow: 5px 5px 1px #dfdfdf;
+    background: white;
+    color: black;
+    border: .5px solid #dfdfdf;
+}
+
 .text-desc {
     opacity: 0.65;
 }
